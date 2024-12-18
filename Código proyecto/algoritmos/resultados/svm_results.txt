@@ -1,0 +1,14 @@
+=== Resultados del modelo SVM ===
+
+Mejores parámetros: {'C': 1, 'gamma': 'scale', 'kernel': 'rbf'}
+Mejor puntuación CV: 0.932
+
+Reporte de clasificación:
+              precision    recall  f1-score   support
+
+      BENIGN       0.98      0.87      0.92      5139
+        DDoS       0.88      0.98      0.93      4773
+
+    accuracy                           0.93      9912
+   macro avg       0.93      0.93      0.93      9912
+weighted avg       0.93      0.93      0.93      9912

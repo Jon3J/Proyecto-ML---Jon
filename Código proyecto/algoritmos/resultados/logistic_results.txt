@@ -1,0 +1,14 @@
+=== Resultados del modelo de Regresión Logística ===
+
+Mejores parámetros: {'C': 100, 'max_iter': 1000, 'penalty': 'l1', 'solver': 'liblinear'}
+Mejor puntuación CV: 0.808
+
+Reporte de clasificación:
+              precision    recall  f1-score   support
+
+      BENIGN       0.85      0.75      0.80      5139
+        DDoS       0.76      0.86      0.81      4773
+
+    accuracy                           0.80      9912
+   macro avg       0.81      0.81      0.80      9912
+weighted avg       0.81      0.80      0.80      9912
